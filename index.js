@@ -4,5 +4,5 @@ module.exports = [
   'iOS 12',
   'last 1 Chrome major version',
   'last 1 Firefox major version',
-  'Safari 10'
+  'Safari 10',
 ]

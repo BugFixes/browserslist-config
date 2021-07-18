@@ -1,5 +1,5 @@
 {
-  "name": "@bugfixes/browserslists-config",
+  "name": "@bugfixes/browserslist-config",
   "version": "0.0.1",
   "engines": {
     "node": ">=15.0.0",
@@ -7,11 +7,11 @@
   },
   "main": "index.js",
   "repository": {
-    "url": "git+https://github.com/bugfixes/browserlists-config.git",
+    "url": "git+https://github.com/bugfixes/browserslist-config.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bugfixes/browserlists-config/issues"
+    "url": "https://github.com/bugfixes/browserslist-config/issues"
   },
   "homepage": "https://bugfix.es",
   "scripts": {
@@ -26,8 +26,8 @@
   },
   "keywords": [
     "bugfixes",
-    "browserlist",
-    "browserlistconfig"
+    "browserslist",
+    "browserslistconfig"
   ],
   "peerDependencies": {
     "browserslist": "^4.0.0"

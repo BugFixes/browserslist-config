@@ -1,0 +1,42 @@
+{
+  "name": "@bugfixes/browserlist-config",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=15.0.0",
+    "npm": ">=7.0.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "url": "git+https://github.com/bugfixes/browserlist-config.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/bugfixes/browserlist-config/issues"
+  },
+  "homepage": "https://bugfix.es",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "standard-release",
+    "release:patch": "standard-release --release-as patch",
+    "release:minor": "standard-release --release-as minor",
+    "release:major": "standard-release --release-as major",
+    "setup:hooks": "husky install",
+    "test": "npm run lint"
+  },
+  "keywords": [
+    "bugfixes",
+    "browserlist",
+    "browserlistconfig"
+  ],
+  "peerDependencies": {
+    "browserslist": "^4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "eslint": "^7.31.0",
+    "husky": "^7.0.1",
+    "standard-version": "^9.3.1"
+  }
+}

@@ -33,6 +33,7 @@
     "browserslist": "^4.0.0"
   },
   "devDependencies": {
+    "@bugfixes/eslint-config": "^0.0.1",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "eslint": "^7.31.0",

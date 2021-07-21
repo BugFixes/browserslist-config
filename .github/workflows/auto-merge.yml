@@ -1,9 +1,8 @@
 name: auto-merge
 on:
   push:
-    branches:
-      - '!main'
-      - '*'
+    branches-ignore:
+      - main
   workflow_run:
     types:
       - completed
@@ -25,5 +24,5 @@ jobs:
         if: ${{ github.event.workflow-run.conclusion == 'success' }}
         uses: ridedott/merge-me-action@v2
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_SECRET }}
           PRESET: DEPENDABOT_MINOR
